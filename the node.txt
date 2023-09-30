@@ -1,0 +1,19 @@
+The  node hidden Protocol(Ainda nao foi decidido)implemente como uma camada
+Protocolo  de ocultaçao de nós
+breve descriçao
+A rede Tor funciona por meio de varios nodes  de rede  
+
+exemplo node A====>node B ===>node exit
+node B  nao guarda informaçoes sobre node A  
+O protocolo  apaga todos os logs relativos a redes ip de modo que e impossivel obter infomarçoes sobre  a  origem do servidor
+e nao guard ips de modo a tornar dificil o rastreaento
+Ainda nao foi decidido  como isso sera feito
+no b nao guarda infomarçao sobre o no anterior
+
+Isso pode ser utilizado por redes p2p para manter a  privacidade e  anonimato
+
+
+1) Um cliente  TndP quer ele usara algum protocolo de anonimato a exemplo
+  
+2) O client configura  3 nos    A ===B ==C  o no A envia a socilictaçoa para B  e  B nao guarda logs de evidencia nem informaçoes sobre  o no anterior
+3) a mensagem chega ao destino
